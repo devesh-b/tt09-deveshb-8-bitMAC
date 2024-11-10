@@ -17,15 +17,19 @@ module tb ();
   reg ena;
   reg [7:0] ui_in;
   reg [7:0] uio_in;
-  wire [7:0] uo_out;
-  wire [7:0] uio_out;
-  wire [7:0] uio_oe;
+   wire [7:0] uo_out;
+   wire [7:0] uio_out;
+   wire [7:0] uio_oe;
+   `ifdef GL_TEST
+   wire VPWR = 1'b1;
+   wire VGND = 1'b0;
+   `endif
   // Replace tt_um_example with your module name:
   tt_um_db_MAC user_project (
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
-      .VPWR(1'b1),
-      .VGND(1'b0),
+     .VPWR(VPWR),
+     .VGND(VGND),
 `endif
       .ui_in  (ui_in),    // Dedicated inputs
       .uo_out (uo_out),   // Dedicated outputs
