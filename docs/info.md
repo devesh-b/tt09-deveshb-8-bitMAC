@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The project aims to implement a 8-bit MAC unit for unsigned integer data type using Vedic Multipliers and Reversible gates. The two inputs are to be taken in through input pins and bi-directional pins using half a clock cycle and stored in registers. The MAC operation is performed on the values stored in these registers. The multiplier and adder takes half clock cycle each. The result of the operation is then sent through the output and bidirectional pins.
 
 ## How to test
 
-Explain how to use your project
+The project will be used to perform mac operations on 8-bit unsigned integers. This is mainly used in systems with fast computation and also primarly explores the concepts of reversible gates for energy efficiency.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware is used for this project.
