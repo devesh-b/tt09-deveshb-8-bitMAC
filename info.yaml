@@ -1,8 +1,8 @@
 # Tiny Tapeout project information
 project:
   title:        "8 bit MAC Unit"      # Project title
-  author:       "Devesh Bhaskaran, Abhiram Gopala Dasika"      # Your name
-  discord:      "deveshb, alfadelta10010"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  author:       "Devesh Bhaskaran, Divyanshu Vyas"      # Your name
+  discord:      "deveshb, Bloodslayer7"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Implementation Of 8-bit MAC Using Vedic Multipliers And Reversible Gates"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     40000000      # Clock frequency in Hz (or 0 if not applicable)
